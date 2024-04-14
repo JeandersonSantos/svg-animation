@@ -1,2 +1,2 @@
 # svg-animation
-Target repository and svg animations with javascript
+Target repository and svg animations with CSS e JS

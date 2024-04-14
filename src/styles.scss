@@ -1,0 +1,35 @@
+.logo{
+    width: 300px;
+
+    .js{
+        fill: black;
+        transition: 0.5s ease-in-out;
+    }
+    & .gtag{
+        transform: matrix(1, 0, 0, 1, 95, 332.1751099479);
+        transition: 0.5s ease-in-out;
+    }
+    & .gj{
+        transform:matrix(1, 0, 0, 1, 96.9481971562, 247.1262004022);
+        transition: 0.5s ease-in-out;
+    }
+    & .gs{
+        transform: matrix(1, 0, 0, 1, 95, 250);
+        transition: 0.5s ease-in-out;
+
+    }
+
+    &.closed,
+    &:hover {
+        & .gtag{
+            transform: matrix(1, 0, 0, 1, 246.7360733454, 332.1751099479);
+        }
+        & .gj{
+            transform:matrix(1, 0, 0, 1, 96.9481971562, 247.1262004022)
+        }
+        & .gs{
+            transform: matrix(1, 0, 0, 1, 400.2405626963, 250);
+
+        }
+    }
+}
